@@ -266,10 +266,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f425e6ad6ee7cc478bac73a19823f94, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cuboPrefab: {fileID: 4781855083089390851, guid: 16c724e3a67670340a017efb7776abcb, type: 3}
+  Cubo: {fileID: 4781855083089390851, guid: 16c724e3a67670340a017efb7776abcb, type: 3}
   player: {fileID: 1419766061}
-  dist: 10
-  Angle: 90
+  Distancia: 10
+  AngCubo: 90
 --- !u!114 &424382536
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -282,7 +282,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2cfdf68ff46017d4b8905ab591d528d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  contadorTexto: {fileID: 1121008168}
+  Puntos: {fileID: 1121008168}
 --- !u!1 &893406328 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1800725127586568702, guid: d6878e1999eb4b44a9f5a263af86c185, type: 3}
@@ -967,13 +967,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4966719baa26e4b0e8231a24d9bd491a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_FocusMode: -1
-  m_LightEstimationMode: -1
-  m_AutoFocus: 1
-  m_ImageStabilization: 0
-  m_LightEstimation: 0
-  m_FacingDirection: 1
-  m_RenderMode: 0
 --- !u!114 &1874518830
 MonoBehaviour:
   m_ObjectHideFlags: 0

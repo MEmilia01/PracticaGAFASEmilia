@@ -26,3 +26,13 @@ public class Manos : MonoBehaviour
         }
     }
 }
+/*
+ if (player == null) return;
+
+Vector3 objetivo = player.position;
+objetivo.y = Camera.main.transform.position.y;
+
+transform.position = Vector3.MoveTowards(transform.position, objetivo, speed * Time.deltaTime);
+
+transform.LookAt(player);
+ */
